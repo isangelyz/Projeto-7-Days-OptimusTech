@@ -1,0 +1,76 @@
+:root{
+    --fonte-principal: "Inter", sans-serif;
+    --cinza: rgba(102, 112, 133, 1);
+    --cinza-escuro: rgba(58, 64, 78, 1);
+    --vermelho: rgba(142, 36, 36, 1);
+    --branco: rgba(255, 255, 255, 1);
+}
+
+.cabecalho{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-family: var(--fonte-principal);
+}
+
+.cabecalho__conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.cabecalho__logo-marca{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cabecalho__titulo{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--cinza-escuro);
+}
+
+.cabecalho__navegacao{
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho__navegacao-topico{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.cabecalho__login{
+    display: flex;
+    gap: 12px;
+}
+
+.cabecalho__login-botoes {
+    height: 44px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    border: transparent;
+    font-family: var(--fonte-principal);
+}
+
+.cabecalho__entrar{
+    width: 83px;
+    background-color: transparent;
+    color: var(--cinza);
+}
+
+.cabecalho__cadastro{
+    width: 112px;
+    border: var(--vermelho);
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
