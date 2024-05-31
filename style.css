@@ -4,7 +4,15 @@
     --cinza-escuro: rgba(58, 64, 78, 1);
     --vermelho: rgba(142, 36, 36, 1);
     --branco: rgba(255, 255, 255, 1);
+    --preto: rgba(16, 24, 40, 1);
 }
+
+body {
+    width: 100%;
+    height: 100vh;
+  }  
+
+/*Cabeçalho*/
 
 .cabecalho{
     padding-top: 20px;
@@ -73,4 +81,42 @@
     border: var(--vermelho);
     background-color: var(--vermelho);
     color: var(--branco);
+}
+
+/*Seção 1*/
+
+.secao-1__conteudo{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: var(--fonte-principal);
+    align-items: center;
+}
+
+.secao-1__span{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--vermelho);
+}
+
+.secao-1__titulo{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: var(--preto);
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.secao-1__paragrafo{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 791px;
+    color: var(--cinza);
+    padding-top: 12px;
 }
