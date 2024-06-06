@@ -7,6 +7,9 @@
     --preto: rgba(16, 24, 40, 1);
     --cinza-claro: rgba(234, 236, 240, 1);
     --vermelho-transparente: rgba(195, 25, 25, 0.03);
+    --form-cinza: rgba(208, 213, 221, 1);
+    --rodape-cinza: rgba(152, 162, 179, 1);
+    --cabecalho-back: rgba(249, 250, 251, 1);
 }
 
 body {
@@ -354,4 +357,92 @@ body {
     font-size: 14px;
     line-height: 20px;
     color: var(--cinza-escuro);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    font-family: var(--fonte-principal);
+    background-color: var(--cabecalho-back);
+}
+
+.form-box{
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.form-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.form-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-form{
+    display: flex;
+    gap: 16px;
+}
+
+.form-titulo{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--preto);
+}
+
+.form-paragrafo{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cinza);
+}
+
+.form-insira{
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    width: 360px;
+    border: 1px solid var(--form-cinza);
+    border-radius: 8px;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--cinza);
+}
+
+.form-botao {
+    padding-left: 20px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    padding-top: 12px;
+    background-color: var(--vermelho);
+    border: 1px solid var(--vermelho);
+    border-radius: 8px;    
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--fonte-principal);
+}
+
+.form-rodape {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--rodape-cinza);
 }
